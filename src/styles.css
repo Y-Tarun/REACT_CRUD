@@ -1,0 +1,108 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #eeeeee;
+  text-align: center;
+}
+h3 {
+  font-size: 1.4rem;
+}
+.info h4 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+.card {
+  position: relative;
+  background-color: white;
+  height: 300px;
+  width: 250px;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  margin: 20px auto 10px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.info {
+  color: #2b2b2b;
+}
+
+.icon {
+  position: absolute;
+  font-size: 2rem;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #ededed;
+}
+.icon:hover {
+  color: #950101;
+}
+
+.header {
+  margin: 60px;
+
+  color: #171717;
+}
+
+.input {
+  margin: 5px auto;
+  height: 2.1rem;
+  width: 200px;
+}
+.inputFields {
+  margin-top: 35px;
+}
+.addNewUserForm {
+  display: inline-block;
+}
+.edit-icon {
+  position: absolute;
+  font-size: 1.9rem;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  color: #ededed;
+}
+.edit-icon:hover {
+  color: #49ff00;
+}
+
+.update-card {
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 50px 60px;
+  z-index: 1000;
+  text-align: left;
+}
+.overlay-styles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+.input-update {
+  margin: 5px;
+  height: 2.1rem;
+  width: 400px;
+}
+.updateButton {
+  margin: 25px auto;
+}
